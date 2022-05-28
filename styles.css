@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(190, 230, 230, 0.665);
+}
+
+.fruit-boxes-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.fruit-box {
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  border-radius: 5%;
+}
+
+.fruit-box:hover {
+  cursor: pointer;
+}
+
+.fruit-box:active {
+  transform: translateY(4px);
+  box-shadow: none;
+}
+
+.fruit-container {
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fruit {
+  margin-top: 5%;
+}
+
+.fruit img {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.fruit img:focus {
+  border: 17px solid orange;
+  border-radius: 5%;
+}
+
+#orange {
+  background-color: orange;
+  box-shadow: 5px 5px rgba(255, 119, 0, 0.407);
+  border: 5px solid rgba(0, 0, 0, 0.198);
+}
+#blue {
+  background-color: rgb(75, 75, 253);
+  box-shadow: 5px 5px rgba(33, 114, 255, 0.407);
+  border: 5px solid rgba(0, 0, 0, 0.198);
+}
+#yellow {
+  background-color: yellow;
+  box-shadow: 5px 5px rgba(255, 238, 7, 0.407);
+  border: 5px solid rgba(0, 0, 0, 0.198);
+}
+#red {
+  background-color: red;
+  box-shadow: 5px 5px rgba(255, 65, 65, 0.407);
+  border: 5px solid rgba(0, 0, 0, 0.198);
+}
+#green {
+  background-color: green;
+  box-shadow: 5px 5px rgba(108, 255, 85, 0.407);
+  border: 5px solid rgba(0, 0, 0, 0.198);
+}
+#purple {
+  background-color: purple;
+  box-shadow: 5px 5px rgba(105, 1, 98, 0.407);
+  border: 5px solid rgba(0, 0, 0, 0.198);
+}
+#pink {
+  background-color: rgb(255, 119, 142);
+  box-shadow: 5px 5px rgba(255, 70, 199, 0.407);
+  border: 5px solid rgba(0, 0, 0, 0.198);
+}
