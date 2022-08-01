@@ -4,22 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Fruit Boxes 🍎</title>
+    <link rel="stylesheet" href="index.css" />
+    <title>Home | E-Learning</title>
   </head>
   <body>
-    <div class="fruit-boxes-container">
-      <div class="fruit-box" id="orange"></div>
-      <div class="fruit-box" id="blue"></div>
-      <div class="fruit-box" id="yellow"></div>
-      <div class="fruit-box" id="red"></div>
-      <div class="fruit-box" id="green"></div>
-      <div class="fruit-box" id="purple"></div>
-      <div class="fruit-box" id="pink"></div>
+    <nav class="nav">
+      <a href="/fruit.html">
+        <button>Learn your fruit</button>
+      </a>
+      <a href="/animals.html">
+        <button>Learn your animals</button>
+      </a>
+      <a href="">
+        <button>Learn your numbers</button>
+      </a>
+      <a href="">
+        <button>Learn your colors</button>
+      </a>
+    </nav>
+    <div class="carousel">
+      <div class="image-container" id="imgs">
+        <img
+          src="https://images.unsplash.com/photo-1619566636858-adf3ef46400b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          alt="first-image"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1585468274952-66591eb14165?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80"
+          alt="second-image"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1568828668638-b1b4014d91a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2095&q=80"
+          alt="third-image"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1594569072762-3345ae34c93c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          alt="fourth-image"
+        />
+      </div>
+      <!-- <div class="buttons-container">
+            <button id="left" class="btn">Prev</button>
+            <button id="right" class="btn">Next</button>
+        </div> -->
     </div>
-    <div class="fruit-container">
-      <div class="fruit"></div>
-    </div>
-    <script src="script.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
